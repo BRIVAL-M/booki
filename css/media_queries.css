@@ -1,0 +1,1029 @@
+
+/* 
+                                                        Breakpoints used :
+
+                                                        Desktop:          1639 / 992  
+                                                        Tablette:         992 (landscape)/694 
+                                                        Regular mobile:   399 
+                                                        Small mobile:     371
+
+*/
+
+/*_________________________________________________________________________________________________________MEDIA QUERIES___max-width: 1639px_______________________*/
+
+
+@media screen and (max-width: 1639px ) {
+
+
+
+/*__________________________________(Search)_AFFINITIES FILTERS___CONTENT_*/
+
+.affinities {
+
+    padding: 0px;
+
+}
+
+.affinities__filters--select {
+
+    padding: 8px;
+
+}
+
+.adjustTxt {
+
+    margin-right: 0px;
+}
+
+/*________________________________________________________________________*/
+
+
+
+
+
+/*_____________________________________________________POPULAR CONTENT____*/
+
+
+.container {   /* container = hosting + popular + activities */
+
+    flex-direction: column-reverse;
+
+}
+
+.popular {
+
+    padding: 0px;
+    width: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+
+.popular__title--icon {
+
+    padding-inline: 6px;
+
+}
+
+.popular__cards--container {
+
+	display: flex;
+    justify-content: space-between;
+
+}
+
+.popular__links {
+
+     width: 30%;
+
+}
+
+.popular__cards {
+
+    height: 275px;
+    flex-direction: column;
+
+}
+
+.popular__cards--descrip {
+
+	margin-left: 5px;
+
+}
+
+.popular__img {
+
+    width: 100%;
+    height: 155px; 
+    border-radius: 25px 25px 0px 0px;
+    
+}
+
+.popular__stars {
+
+    margin-top: 5px;
+
+}
+
+/*________________________________________________________________________*/
+
+
+
+
+
+/*_____________________________________________________HOSTING CONTENT____*/
+
+
+.hosting {
+
+    margin-right: 0px;
+    padding: 0px;
+    background-color: inherit;
+
+}
+
+.hosting__cards {
+
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.hosting__cards--titles {
+
+    margin: 0px;
+    margin-bottom: 5px;
+
+}
+
+.hosting__text {
+
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: -50px;
+
+}
+
+
+.activities__cards--container1 {
+
+    flex-wrap: wrap;
+
+}
+
+.activities__cards--container2,.activities__links2 {
+
+    width: 46%;
+
+}
+
+.activities__links1 {
+
+    width: 50%;
+}
+
+/*.activities__cards1 {
+
+    width: 50%;
+
+}*/
+
+/*________________________________________________________________________*/
+
+
+}
+
+/*__________________________________________________________________________________________________________MEDIA QUERIES___max-width: 992px_______________________*/
+
+
+@media screen and (max-width: 992px ) { 
+
+/*_____________________________________________________HEADER NAV_CONTENT_*/
+
+
+header {
+
+    padding-top: 20px;
+
+}
+
+.header__logo {
+
+    margin-bottom: 25px;
+
+}
+
+nav {
+
+    width: 100%;
+}
+
+.header__nav--links {
+
+    width: 100%;
+    justify-content: center;
+
+}
+
+.header__nav--border {
+
+    width: 100%;
+    height: 50px;
+    border-bottom: #F2F2F2 solid 3px;
+    border-top: none;
+
+}
+
+.header__nav--border:hover {
+
+    border-top: none;
+    border-bottom: #0065FC solid 3px;
+    color: #0065FC;
+
+}
+
+/*________________________________________________________________________*/
+
+
+
+
+
+/*__________________________________(Search)_AFFINITIES FILTERS___CONTENT_*/
+
+.adjustTxt {
+
+    margin-right: 0px;
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.adjustSpace {
+
+    flex-direction: column;
+
+}
+
+.search__input {
+
+    justify-content: center;
+    margin-top: 35px;
+
+}
+
+.affinities__title {
+
+    width: 100%;
+
+}
+
+.affinities {
+
+    justify-content: center;
+
+}
+
+.adjustItems {
+
+    justify-content: center;
+
+}
+
+
+
+
+
+/*________________________________________________________________________*/
+
+
+
+
+
+/*_____________________________________________________POPULAR CONTENT____*/
+
+
+.popular__cards--container {
+
+    display: inherit;
+
+}
+
+.popular__cards {
+
+    width: auto;
+    height: max-content;
+    flex-direction: inherit;
+   
+    
+}
+
+.popular__cards--titles {
+
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+.popular__cards--descrip {
+
+    line-height: 1.3;
+    font-size: 1.15em;
+    margin-left: 20px;
+   
+   
+}
+
+.popular__img { 
+
+    width: 45%;
+    height: 180px;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.popular__stars {
+
+   margin-top: 60px;
+  
+}
+
+
+
+/*________________________________________________________________________*/
+
+
+
+
+
+
+/*____________________________________________________HOSTING CONTENT____*/
+
+.hosting__links {
+
+    width: 45%;
+
+}
+
+.hosting__img {
+
+    height: 180px;
+
+}
+
+
+/*______________________________________________________________________*/
+
+
+
+
+
+/*__________________________________________________FOOTER____CONTENT___*/
+
+
+.footer__links--container1,.footer__links--container2 {    
+
+    width: 70%;
+    height: 200px;
+    line-height: 1.7;
+    
+}
+
+.footer__links--container3 {    
+
+    width: 50%;
+    height: 200px;
+    line-height: 1.7;
+   
+}
+
+/*______________________________________________________________________*/
+
+}
+
+/*__________________________________________________________________________________MEDIA QUERIES___max-width: 992px_(orientation: landscape)______________________*/
+
+@media (orientation: landscape) and (max-device-width : 992px) { /*<----------------- "max-device-width" Fonctionne mal sous Android :/
+
+(max-device-width est la largeur de tout l'écran et max-width signifie l'espace utilisé par le navigateur pour afficher les pages.) */
+
+
+/*______________________________________________ACTIVITIES____CONTENT___*/ 
+
+.activities__cards--container2,.activities__links2,.activities__links1 {
+
+    width: 100%;
+}
+
+.activities__img1,.activities__img2,.activities__img3,.activities__img4,.activities__img5 {
+
+    height: 320px;
+}
+
+.activities__cards1,.activities__cards2,.activities__cards3,.activities__cards4,.activities__cards5 {
+
+    height: 380px;
+}
+
+/*______________________________________________________________________*/
+
+}
+
+/*__________________________________________________________________________________________________________MEDIA QUERIES___max-width: 694px_______________________*/
+
+
+@media screen and (max-width: 694px ) { /* 768 demandé j'ai envoyé est à 694px */
+
+/*__________________________________________GENERAL CONTENT____________*/
+
+body {
+
+    margin-inline: 0px;
+}
+
+header {
+
+  padding-inline: 0px;
+    
+}
+
+main {
+
+    padding: 0px;
+
+}
+
+/*______________________________________________________________________*/
+
+
+
+
+
+/*_________________________________SEARCH = INPUT + BUTTON-2___CONTENT_*/
+
+.search__input--button {
+
+    display: none;
+  
+}
+
+.search__input--button2 {
+
+    color: white;
+    font-size: 16px;
+    border: none;
+    height: 65px;
+    width: 80px;
+    border-radius: 20px 20px 20px 20px;
+    display: initial;
+    margin-left: -15px;
+
+}
+
+/*______________________________________________________________________*/
+
+
+
+
+
+
+/*_______________________________(Search)_AFFINITIES FILTERS___CONTENT_*/
+
+.search__info--icon {
+
+    width: 22px;
+    height: 22px;
+
+}
+
+.adjustFlex {
+
+    flex-wrap: wrap;
+
+}
+
+/*______________________________________________________________________*/
+
+
+
+
+
+/*____________________________________________________HOSTING CONTENT____*/
+
+.hosting {
+
+    padding: 10px;
+
+}
+
+.hosting__links {
+
+    width: 100%;
+}
+
+.hosting__cards {
+
+   height: 375px;
+
+}
+
+.hosting__img {
+
+    height: 280px;
+
+}
+
+.hosting__text {
+
+    margin-bottom: -100px;
+    
+}
+
+/*______________________________________________________________________*/
+
+
+
+
+
+/*___________________________________________________POPULAR CONTENT____*/
+
+.popular {
+
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: inherit;
+
+}
+
+/*______________________________________________________________________*/
+
+
+
+
+
+/*______________________________________________ACTIVITIES____CONTENT___*/ 
+
+.activities {
+
+    width: inherit;
+    padding: 10px;
+}
+
+.activities__title {
+
+    margin-bottom: 50px;
+}
+
+.activities__cards--container1 {
+
+    flex-direction: column;
+
+}
+
+.activities__cards--container2,.activities__links1,.activities__links2 {
+
+    width: 100%;
+
+}
+
+.activities__cards1,.activities__cards2,.activities__cards3,.activities__cards4,.activities__cards5 {    
+
+    height: 340px;
+    padding: 0px;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 0 0 16px #0000002e;
+    margin: 0px;
+    margin-bottom: 50px;
+
+}
+
+.activities__img1,.activities__img2,.activities__img3,.activities__img4,.activities__img5 {
+
+    height: 280px;
+    width: 100%;
+    
+}
+
+/*______________________________________________________________________*/
+
+
+
+
+
+/*__________________________________________________FOOTER____CONTENT___*/ 
+
+footer {
+
+    flex-direction: column;
+    height: max-content;
+
+}
+
+.footer__links--container3 {
+
+    margin-bottom: 30px;
+}
+
+.footer__links--container1,.footer__links--container2,.footer__links--container3 {
+
+    width: 100%;
+    height: inherit;
+
+}
+
+/*_______________________________________________________________________*/
+
+}
+
+/*__________________________________________________________________________________________________________MEDIA QUERIES___max-width: 399px_______________________*/
+
+@media screen and (max-width: 399px ) {
+
+
+body {
+
+    padding: inherit;
+
+}
+
+.W3C {
+
+    margin-left: 8px;
+}
+
+/*______________________________________SEARCH = INPUT + BUTTON___CONTENT_*/
+
+.search {
+
+    padding: 8px;
+}
+
+.search__input {
+
+    margin-bottom: 40px;
+
+}
+
+input {
+
+    width: 65%;
+}
+
+.search__input--button2 {
+
+    width: 65px;
+}
+
+.search__info--icon {
+
+    height: 18px;
+
+}
+
+.search__info {
+
+    margin-right: 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+
+/*_______________________________________________________________________*/
+
+
+
+
+
+/*__________________________________(Search)_AFFINITIES FILTERS___CONTENT_*/
+
+.affinities {
+
+    justify-content: inherit;
+}
+
+.affinities__filters {
+
+    margin-top: 0px;
+
+}
+
+.affinities__filters--select {
+
+    padding: 11px;
+}
+
+.adjustTxt {
+
+    text-align: inherit;
+    margin-left: 10px;
+
+} 
+
+.adjustItems {
+
+    margin-left: 10px;
+}
+
+/*_______________________________________________________________________*/
+
+
+
+
+
+/*____________________________________________________POPULAR CONTENT____*/
+
+.popular__title--icon {
+
+    margin-top: 25px;
+
+}
+
+.popular {
+
+    width: 92%;
+    height: 710px;
+
+}
+
+.popular__links {
+
+    width: 98%;
+}
+
+.popular__cards {
+
+    margin-bottom: 0px;
+
+}
+
+.popular__cards--titles {
+
+     margin-bottom: 5px;
+
+}
+
+.popular__cards--descrip {
+
+    font-size: inherit;
+   
+}                                                 
+
+.popular__img {
+
+    width: 42%;
+    height: 155px;
+}
+
+.popular__stars {
+
+    margin-top: 40px;
+}
+
+
+/*_______________________________________________________________________*/
+
+
+
+
+
+/*_____________________________________________________HOSTING CONTENT____*/
+
+.hosting__links {
+
+    width: 100%;
+}
+
+.hosting__cards {
+
+    height: 260px;
+    margin-bottom: 0px;
+
+}
+
+.hosting__img {
+
+    height: 165px;
+
+}
+
+/*_______________________________________________________________________*/
+
+
+
+
+
+/*________________________________________________ACTIVITIES____CONTENT___*/ 
+
+.activities__cards1,.activities__cards2,.activities__cards3,.activities__cards4,.activities__cards5 {
+
+     height: 225px;
+     margin-bottom: 20px;
+
+}
+
+.activities__img1,.activities__img2,.activities__img3,.activities__img4,.activities__img5 {
+
+    height: 165px;
+
+}
+
+.activities__cards--descrip {
+
+    margin-top: 15px;
+}
+
+/*_______________________________________________________________________*/
+
+}
+
+/*__________________________________________________________________________________________________________MEDIA QUERIES___max-width: 371px_______________________*/
+
+
+@media screen and (max-width: 371px ) { /* For Iphone 5.SE (360px) & Galaxy fold (280px) ...*/
+
+/*_________________________________________________________HEADER_CONTENT_*/
+
+header {
+
+    background-color: #DEEBFF;
+}
+
+.header__logo {
+
+    margin-left: 40px;
+
+}
+
+/*_______________________________________________________________________*/
+
+
+
+
+
+/*_________________________________SEARCH + AFFINITIES FILTERS___CONTENT_*/
+
+input {
+
+    width: 80%;
+
+}
+
+.search__info--icon {
+
+    width: 40px;
+
+}
+
+.adjustTxt {
+
+    text-align: center;
+    margin-left: inherit;
+}
+
+.adjustAround {
+
+    display: inherit;
+
+}
+
+.affinities  {
+
+    justify-content: center;
+
+}
+
+.affinities__filters--select {
+
+    display: none;
+
+}
+
+.affinities__filters--icons {
+
+    padding: 15px;
+
+}
+
+.affinities__filters {
+
+    border: none;
+    margin: 13px;
+}
+
+.affinities__filters:hover {
+
+    transform: inherit;
+    transition: inherit;
+    cursor: pointer;
+    box-shadow: inherit;
+    border: inherit;
+    background: inherit;
+}
+
+.affinities__filters--icons:hover {
+
+    background-color: #0065FC;
+    color: #DEEBFF;
+
+}
+
+/*_______________________________________________________________________*/
+
+
+
+
+
+/*____________________________________________________POPULAR CONTENT____*/
+
+.popular {
+
+    height: 1020px;
+    width: inherit;
+}
+
+.popular__title--icon {
+
+    padding-inline: 0px;
+}
+
+.popular__links {
+
+    width: 97%;
+
+}
+.popular__cards {
+
+    flex-direction: column;
+    
+}
+
+.popular__img {
+
+    width: 100%;
+    border-radius: 25px 25px 0px 0px;
+
+}
+
+.popular__stars {
+
+    margin-top: 5px;
+
+}
+
+/*_______________________________________________________________________*/
+
+.container,.hosting {
+
+    width: inherit;
+}
+
+/*____________________________________________________HOSTING CONTENT____*/
+
+.hosting__title {
+
+    text-align: center;
+    margin-bottom: 40px;
+    width: 93%;
+
+}
+
+.hosting__links,.hosting__title  {
+
+    width: 100%;
+
+}
+
+/*_______________________________________________________________________*/
+
+
+
+
+
+/*_______________________________________________ACTIVITIES____CONTENT___*/ 
+
+.activities__title {
+
+    text-align: center;
+
+}
+
+.activities__cards1,.activities__cards2, .activities__cards3, .activities__cards4, .activities__cards5 {
+
+    width: 100%;
+
+}
+
+.activities__cards--descrip {
+
+    font-size: inherit;
+
+}
+
+/*_______________________________________________________________________*/
+
+
+
+
+
+/*___________________________________________________FOOTER____CONTENT___*/ 
+
+.footer__links--container1, .footer__links--container2, .footer__links--container3 {
+
+    width: inherit;
+    text-align: center;
+
+}
+
+.footer__title,.footer__links {
+
+    margin-left: 0px;
+
+}
+
+/*_______________________________________________________________________*/
+
+
+}
+/*_________________________________________________________________________________________________________________________________*/

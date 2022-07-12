@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="fr">
+   <head>
+      <meta charset="UTF-8" />
+      <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="css/media_queries.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/2b58de1911.js" crossorigin="anonymous"></script>
+      <link rel="icon" type="image/png" href="images/favIcon/android-chrome-512x512.png" sizes="310x310" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Booki</title>
+   </head>
+   <body>
+         <a href="http://jigsaw.w3.org/css-validator/check/referer" class="W3C">
+            <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue"  alt="CSS Valide !" />
+         </a>
+     <header class="adjustSpace">
+         <a href="https://www.youtube.com/watch?v=oJhtjGXhHoc" title="Lien vers la vidéo de présentation du site">
+            <!-- Video of the site shown during the presentation -->
+            <img src="images/logo/Booki.png" class="header__logo" alt="booki logo">
+         </a>
+         <nav>
+            <ul class="adjustAround">
+               <li class="header__nav header__nav--border adjustCenter"><a class="header__nav--links" href="#hosting">Hébergements</a></li>
+               <li class="header__nav header__nav--border adjustCenter"><a class="header__nav--links" href="#activities">Activités</a></li>
+            </ul>
+         </nav>
+      </header>
+      <main id="main-content">
+         <!-- Skip navigation : Adding an id attribute to the <main> element lets it be a target of a skip navigation link. FROM : MDN Web DOcs Mozilla -->
+         <section class="search">
+            <h1 class="adjustTxt">Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p class="adjustTxt">En plein centre ville ou en pleine nature</p>
+           <form class="search__input">
+               <div class="search__input--icon primaryColor3_Bg"><i class="fas fa-map-marker-alt"></i></div>
+               <input type="search" placeholder="Marseille, France">
+               <button class="search__input--button primaryColor1_Bg ">Rechercher</button>
+               <button class="search__input--button2 primaryColor1_Bg"><i class="fas fa-search"></i></button>
+            </form>
+            <ul class="affinities">
+               <li class="affinities__title">
+                  <h2 class="adjustTxt">Filtres</h2>
+               </li>
+               <li class="affinities__filters">
+                  <i class="fas fa-money-bill-wave affinities__filters--icons primaryColor1 primaryColor2_Bg"></i>
+                  <h5 class="affinities__filters--select">Économique</h5>
+               </li>
+               <li class="affinities__filters">
+                  <i class="fas fa-child affinities__filters--icons primaryColor1 primaryColor2_Bg"></i>
+                  <h5 class="affinities__filters--select">Familial</h5>
+               </li>
+               <li class="affinities__filters">
+                  <i class="fas fa-heart affinities__filters--icons primaryColor1 primaryColor2_Bg"></i>
+                  <h5 class="affinities__filters--select">Romantique</h5>
+               </li>
+               <li class="affinities__filters">
+                  <i class="fas fa-dog affinities__filters--icons primaryColor1 primaryColor2_Bg"></i>
+                  <h5 class="affinities__filters--select">Animaux autorisés</h5>
+               </li>
+            </ul>
+            <div class="adjustItems">
+               <div class="search__info--icon adjustCenter"><i class="fas fa-info fa-xs"></i></div>
+               <p class="search__info">Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
+         </section>
+        <section class="container">
+               <div id="hosting" class="hosting primaryColor3_Bg">
+               <!-- HEBERGEMENTS A MARSEILLE -->
+               <h2 class="hosting__title">Hébergements à Marseille</h2>
+               <div class="hosting__cards--container">
+                  <!-- Start hosting__cards container -->
+                  <a href="#" class="hosting__links">
+                     <figure class="hosting__cards cards--hover">
+                        <img class="hosting__img" src="images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="auberge la cannebière marseille booki" title="Réservez dès maintenant">
+                        <figcaption class="hosting__cards--descrip">
+                           <h4 class="hosting__cards--titles">Auberge la Cannebière</h4>
+                           Nuit à partir de <span class="hosting-popular__cards--prices">25€</span><br>
+                           <div class="stars primaryColor1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star primaryColor4"></i></div>
+                        </figcaption>
+                     </figure>
+                  </a>
+                  <a href="#" class="hosting__links">
+                     <figure class="hosting__cards cards--hover">
+                        <img class="hosting__img" src="images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="hôtel du port marseille booki" title="Réservez dès maintenant">
+                        <figcaption class="hosting__cards--descrip">
+                           <h4 class="hosting__cards--titles">Hôtel du port</h4>
+                           Nuit à partir de <span class="hosting-popular__cards--prices">52€</span><br>
+                           <div class="stars primaryColor1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </figcaption>
+                     </figure>
+                  </a>
+                  <a href="#" class="hosting__links">
+                     <figure class="hosting__cards cards--hover">
+                        <img class="hosting__img" src="images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="hôtel les mouettes marseille booki" title="Réservez dès maintenant">
+                        <figcaption class="hosting__cards--descrip">
+                           <h4 class="hosting__cards--titles">Hôtel Les mouettes</h4>
+                           Nuit à partir de <span class="hosting-popular__cards--prices">76€</span><br>
+                           <div class="stars primaryColor1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star primaryColor4"></i></div>
+                        </figcaption>
+                     </figure>
+                  </a>
+                  <a href="#" class="hosting__links">
+                     <figure class="hosting__cards cards--hover">
+                        <img class="hosting__img" src="images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="hôtel de la mer marseille booki" title="Réservez dès maintenant">
+                        <figcaption class="hosting__cards--descrip">
+                           <h4 class="hosting__cards--titles">Hôtel de la mer</h4>
+                           Nuit à partir de <span class="hosting-popular__cards--prices">46€</span><br>
+                           <div class="stars primaryColor1"> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star primaryColor4"></i><i class="fas fa-star primaryColor4"></i></div>
+                        </figcaption>
+                     </figure>
+                  </a>
+                  <a href="#" class="hosting__links">
+                     <figure class="hosting__cards cards--hover">
+                        <img class="hosting__img" src="images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="auberge le panier marseille booki" title="Réservez dès maintenant">
+                        <figcaption class="hosting__cards--descrip">
+                           <h4 class="hosting__cards--titles">Auberge le Panier</h4>
+                           Nuit à partir de <span class="hosting-popular__cards--prices">23€</span><br>
+                           <div class="stars primaryColor1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star primaryColor4"></i></div>
+                        </figcaption>
+                     </figure>
+                  </a>
+                  <a href="#" class="hosting__links">
+                     <figure class="hosting__cards cards--hover">
+                        <img class="hosting__img" src="images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="hôtel chez amina marseille booki" title="Réservez dès maintenant">
+                        <figcaption class="hosting__cards--descrip">
+                           <h4 class="hosting__cards--titles">Hôtel chez Amina</h4>
+                           Nuit à partir de <span class="hosting-popular__cards--prices">96€</span><br>
+                           <div class="stars primaryColor1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </figcaption>
+                     </figure>
+                  </a>
+               </div>
+               <!-- End hosting__cards container -->
+               <div class="hosting__text">
+                  <a href="#">
+                     <p>Afficher plus</p>
+                  </a>
+               </div>
+            </div>
+            <aside class="popular primaryColor3_Bg">
+               <!-- LES PLUS POPULAIRES -->
+               <div class="popular__title--icon">
+                  <h2 class="">Les plus populaires</h2>
+                  <i class="fas fa-chart-line fa-1x"></i>
+               </div>
+               <div class="popular__cards--container">
+               <!-- Start popular__cards container -->
+                  <a href="" class="popular__links">
+                     <figure class="popular__cards cards--hover">
+                        <img class="popular__img" src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="logements les plus populaires sur booki">
+                        <figcaption class="popular__cards--descrip">
+                           <h4 class="popular__cards--titles">Hôtel Le soleil du<br> matin</h4>
+                           Nuit à partir de <span class="hosting-popular__cards--prices">128€</span>
+                           <div class="stars popular__stars primaryColor1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </figcaption>
+                     </figure>
+                  </a>
+                  <a href="" class="popular__links">
+                     <figure class="popular__cards cards--hover">
+                        <img class="popular__img" src="images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="logements les plus populaires sur booki">
+                        <figcaption class="popular__cards--descrip">
+                           <h4 class="popular__cards--titles">Au coeur de l'eau<br> Chambres d'hôtes</h4>
+                           Nuit à partir de <span class="hosting-popular__cards--prices">71€</span>
+                           <div class="stars popular__stars primaryColor1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star primaryColor4"></i></div>
+                        </figcaption>
+                     </figure>
+                  </a>
+                  <a href="" class="popular__links">
+                     <figure class="popular__cards cards--hover">
+                        <img class="popular__img" src="images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="logements les plus populaires sur booki">
+                        <figcaption class="popular__cards--descrip">
+                           <h4 class="popular__cards--titles">Hôtel Tout bleu et<br> Blanc</h4>
+                           Nuit à partir de <span class="hosting-popular__cards--prices">68€</span>
+                           <div class="stars popular__stars primaryColor1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star primaryColor4"></i></div>
+                        </figcaption>
+                     </figure>
+                  </a>
+               </div>
+               <!-- END popular__cards container -->
+            </aside>
+         </section>
+         <section id="activities" class="activities">
+            <!-- ACTIVITES A MARSEILLE -->
+            <h1 class="activities__title">Activités à Marseille</h1>
+            <div class="activities__cards--container1">
+               <a href="" class="activities__links1">
+                  <figure class="activities__cards1 cards--hover">
+                     <img class="activities__img1" src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="activités à marseille vieux port booki">
+                     <figcaption class="activities__cards--descrip">Vieux port</figcaption>
+                  </figure>
+               </a>
+               <div class="activities__cards--container2">
+                  <!-- This DIV allows images 2 and 3 to be placed one on top of the other -->
+                  <a href="" class="activities__links2">
+                     <figure class="activities__cards2 cards--hover">
+                        <img class="activities__img2" src="images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="activités à marseille fort de pomègues booki">
+                        <figcaption class="activities__cards--descrip">Fort de Pomègues</figcaption>
+                     </figure>
+                  </a>
+                  <a href="" class="activities__links2">
+                     <figure class="activities__cards3 cards--hover">
+                        <img class="activities__img3" src="images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="activités à marseille îles du frioul booki">
+                        <figcaption class="activities__cards--descrip">Îles du Frioul</figcaption>
+                     </figure>
+                  </a>
+               </div>
+               <a href="" class="activities__links1">
+                  <figure class="activities__cards1 cards--hover">
+                     <img class="activities__img1" src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="activités à marseille parc national des calanques booki">
+                     <figcaption class="activities__cards--descrip">Parc National des Calanques</figcaption>
+                  </figure>
+               </a>
+               <div class="activities__cards--container2">
+                  <!-- This DIV allows images 4 and 5 to be placed one on top of the other -->
+                  <a href="" class="activities__links2">
+                     <figure class="activities__cards4 cards--hover">
+                        <img class="activities__img4" src="images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="activités à marseille notre-dame-de-la-garde booki">
+                        <figcaption class="activities__cards--descrip">Notre-Dame-de-la-Garde</figcaption>
+                     </figure>
+                  </a>
+                  <a href="" class="activities__links2">
+                     <figure class="activities__cards5 cards--hover">
+                        <img class="activities__img5" src="images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="activités à marseille parc longchamp booki">
+                        <figcaption class="activities__cards--descrip">Parc Longchamp</figcaption>
+                     </figure>
+                  </a>
+               </div>
+            </div>
+         </section>
+      </main>
+      <footer class="primaryColor3_Bg">
+         <ul class="footer__links--container1">
+            <li class="footer__title">A propos</li>
+            <li><a class="footer__links" href="#">Fonctionnement du site</a></li>
+            <li><a class="footer__links" href="#">Conditions générales de vente</a></li>
+            <li><a class="footer__links" href="#">Données et confidentialité</a></li>
+         </ul>
+         <ul class="footer__links--container2">
+            <li class="footer__title">Nos hébergements</li>
+            <li><a class="footer__links" href="#">Charte qualité</a></li>
+            <li><a class="footer__links" href="#">Soumettre votre hôtel</a></li>
+         </ul>
+         <ul class="footer__links--container3">
+            <li class="footer__title">Assistance</li>
+            <li><a class="footer__links" href="#">Centre d'aide</a></li>
+            <li><a class="footer__links" href="#">Nous contacter</a></li>
+         </ul>
+      </footer>
+   </body><!-- WriTten_bY_BriVaL_MiCkAëL -->
